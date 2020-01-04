@@ -873,6 +873,7 @@ Status Packager::Initialize(
   static base::AtExitManager exit;
   static media::LibcryptoThreading libcrypto_threading;
 
+      LOG(ERROR) << "liuliuliuliuliuliu MpdNotifier failed to initialize.";
   if (internal_)
     return Status(error::INVALID_ARGUMENT, "Already initialized.");
 
