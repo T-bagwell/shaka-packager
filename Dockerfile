@@ -18,7 +18,7 @@ ENV GYP_DEFINES='clang=0 use_experimental_allocator_shim=0 use_allocator=none mu
 
 # Build shaka-packager
 WORKDIR shaka_packager
-RUN gclient config https://www.github.com/google/shaka-packager.git --name=src --unmanaged
+RUN gclient config https://github.com/T-bagwell/shaka-packager.git --name=src --unmanaged
 COPY . src
 RUN gclient sync
 RUN cd src && ninja -C out/Release

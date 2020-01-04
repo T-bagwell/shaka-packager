@@ -54,7 +54,7 @@ namespace {
 
 const char kUsage[] =
     "%s [flags] <stream_descriptor> ...\n\n"
-    "  stream_descriptor consists of comma separated field_name/value pairs:\n"
+    "  liuqliuqliu stream_descriptor consists of comma separated field_name/value pairs:\n"
     "  field_name=value,[field_name=value,]...\n"
     "  Supported field names are as follows (names in parenthesis are alias):\n"
     "  - input (in): Required input/source media file path or network stream\n"
